@@ -2,3 +2,6 @@ var parsedBody = JSON.parse(request.body);
 
 response.id = "1234"
 response.body = parsedBody;
+
+response.status = 400;
+response.body = { errorMessage: 'Some error goes here...' };
