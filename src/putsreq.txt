@@ -1,0 +1,4 @@
+var parsedBody = JSON.parse(request.body);
+
+response.id = "1234"
+response.body = parsedBody;
