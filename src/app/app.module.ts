@@ -8,6 +8,7 @@ import { UserSettingsFormComponent } from './user-settings-form/user-settings-fo
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { TimepickerModule } from 'ngx-bootstrap/timepicker';
+import { RatingModule } from 'ngx-bootstrap/rating';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -22,6 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ButtonsModule.forRoot(),
     BsDatepickerModule.forRoot(),
     TimepickerModule.forRoot(),
+    RatingModule.forRoot(),
     BrowserAnimationsModule
   ],
   providers: [],
